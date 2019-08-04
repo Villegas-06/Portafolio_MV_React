@@ -1,4 +1,11 @@
-.Navbar{
-    display:flex;
-    justify-content: right;
+.nav_text{
+    font-size: 18px;
+    display: flex;
+    justify-content: left;
+}
+
+.nav_btn{
+    font-size: 18px;
+    display: flex;
+    justify-content:right;
 }

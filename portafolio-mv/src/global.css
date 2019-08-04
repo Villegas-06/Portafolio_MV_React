@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+nav{
+    color: black;
+    background-color: gray;
+}
+
+body{
+    font-family: 'Crimson Pro', serif;
+}

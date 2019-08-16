@@ -1,4 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
+
+.mt{
+    margin-top: 60px;
+}
+
+.personal-profile__img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+.personal-profile__contact{
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-profile__name{
+    color:white;
+    font-size:30px;
+}
+
+.personal-profile__work{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
 .hero_img{
-    width: 75%;
-    height: 75%;
+    width: 314.98px;
+    height: 300px;
+    border-radius:6px;
+}
+
+h4{
+    font-family: 'Catamaran', sans-serif;
+}
+
+th{
+    font-size:22px;
+    color: rgb(185, 185, 185);
+}
+
+td{
+    font-size: 22px;
+    color:white;
+    text-indent: 50px; 
+}
+
+.Hero_img{
+    display: block;
+    text-align: center;
+}
+
+.Hero_i{
+    color: white;
+    font-size: 23px;
+
 }

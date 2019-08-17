@@ -2,16 +2,16 @@
 
 
 .Bienvenido_div_txt{
-    margin-left: -10px;
     font-family: 'Shadows Into Light', cursive;
+    font-size: 22px;
 
 }
 
-h2{
+.h2{
     text-indent: 0px;
 
 }
 
-p{
+.p{
     font-size: 22px;
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Foto from '../images/hero.jpg';
 import '../styles/Hero.css'
 export class Hero extends Component {
     render() {

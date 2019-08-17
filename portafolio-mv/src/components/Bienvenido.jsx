@@ -7,8 +7,8 @@ export class Bienvenido extends Component {
             <section id="bienvenido" className="container mt-5">
                 <div className="row">
                     <div className="col-md-10">
-                    <h2>Bienvenido</h2>
-                    <p className="section">Soy desarrollador web junior 
+                    <h2 className="h2">Bienvenido</h2>
+                    <p className="section Bienvenido_div_txt">Soy desarrollador web junior 
                     capaz de construir una presencia web desde cero: <br/> desde el concepto, 
                     la navegación, el diseño y la programación hasta UX y UI. <br/>
                     Habilidad para escribir código bien diseñado, comprobable y eficiente utilizando <br/> las mejores prácticas 

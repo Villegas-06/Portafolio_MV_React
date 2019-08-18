@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
+
+.section_title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+    color: #fff
+}
+
+th{
+    font-size:22px;
+    color: rgb(185, 185, 185);
+}
+
+td{
+    font-size: 22px;
+    color:white;
+    text-indent: 50px; 
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.text{
+    color: #fff;
+}
+.contact_social{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sc{
+    color: rgb(185, 185, 185);
+    margin-top: 10px;
+    font-size:18px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.contacts_form{
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+    color: #fff
+}
+
+.contacts_form_div{
+    margin-left: 50px;
+}
+
+.form-group{
+    font-size:20px;
+}
+
+.bg_derechos{
+    background-color:rgb(100, 100, 100);
+}

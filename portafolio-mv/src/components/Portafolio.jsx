@@ -1,19 +1,21 @@
 import React, { Component } from 'react'
 import '../styles/Portafolio.css'
-import hero from '../images/hero.jpg'
+import tienda from '../images/tienda-geek.png'
+import portafolio from '../images/portafolio.png' 
+import geekconf from '../images/perfilgeek.png'
 export class Portafolio extends Component {
     render() {
         return (
-            <section id="portafolio" className="container mt-5">
+            <section  className="container mt-5">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="section-title">
+                        <h2 id="portafolio" className="section-title">
                             Mis Proyectos
                         </h2>
                         <div className="portafolio-cards portafolio_txt">
                         <div className="row project-card ">
                             <div className="col-md-6 col-lg-5 justify-content-center mt-3 mb-3 project-card__img">
-                                <img className="project-card__img" src={hero} alt=""/>
+                                <img className="project-card__img" src={tienda} alt=""/>
                             </div>
                             <div className="col-md-6 col-lg-5 project-card__info">
                                 <br/>
@@ -26,6 +28,9 @@ export class Portafolio extends Component {
                                 en el laboral, de como es el trabajo, del ambiente. 
                                 estuvimos bajo el apoyo del profesor David Rodriguez, que nos asesoró 
                                 y estuvo al tanto de nosotros
+                                </p>
+                                <p className="project-card-stack">
+                                    URL: <a href="https://tienda-virtual-geek.firebaseapp.com/"> https://tienda-virtual-geek.firebaseapp.com/</a>
                                 </p>
                                 <p className="project-card-stack">
                                     Habilidades usadas:
@@ -49,7 +54,7 @@ export class Portafolio extends Component {
                     <div className="portafolio-cards portafolio_txt">
                         <div className="row project-card ">
                             <div className="col-md-6 col-lg-5 justify-content-center mt-3 mb-3 project-card__img">
-                                <img className="project-card__img" src={hero} alt=""/>
+                                <img className="project-card__img" src={portafolio} alt=""/>
                             </div>
                             <div className="col-md-6 col-lg-5 project-card__info">
                                 <br/>
@@ -60,6 +65,9 @@ export class Portafolio extends Component {
                                 Realizamos un Portafolio, para evindeciar los procesos que hemos llevado
                                 durante el curso, además, para que nosotros, los integrantes de Academia Geek
                                 podamos tener un acercamiento a las empresas aliadas, para una fácil vinculación laboral
+                                </p>
+                                <p className="project-card-stack">
+                                    URL: <a href="https://silly-bhabha-716ecc.netlify.com/"> https://silly-bhabha-716ecc.netlify.com/</a>
                                 </p>
                                 <p className="project-card-stack">
                                     Habilidades usadas:
@@ -82,19 +90,20 @@ export class Portafolio extends Component {
                     <div className="portafolio-cards portafolio_txt">
                         <div className="row project-card ">
                             <div className="col-md-6 col-lg-5 justify-content-center mt-3 mb-3 project-card__img">
-                                <img className="project-card__img" src={hero} alt=""/>
+                                <img className="project-card__img" src={geekconf} alt=""/>
                             </div>
                             <div className="col-md-6 col-lg-5 project-card__info">
                                 <br/>
                                 <h3 className="project-card__title">
-                                    Tienda Geek
+                                    Perfiles de conferencia
                                 </h3>
                                 <p className="project-card__info">
-                                Realizamos una tienda de zapatos, propuesta por nuestro docente John Faber Florez,
-                                para evidenciar  trabajo en equipo, manejo de herramientas para la interacción
-                                en el laboral, de como es el trabajo, del ambiente. 
-                                estuvimos bajo el apoyo del profesor David Rodriguez, que nos asesoró 
-                                y estuvo al tanto de nosotros
+                                Realizamos perfiles de conferencia, para nuestro gran final, la geek conf, que se desarrollará
+                                en Ruta N. <br/>
+                                Para éste proyecto, creamos cartas de presentación, para el día de la certificación.
+                                </p>
+                                <p className="project-card-stack">
+                                    URL: <a href="https://elated-feynman-53f4c7.netlify.com/"> https://elated-feynman-53f4c7.netlify.com/</a>
                                 </p>
                                 <p className="project-card-stack">
                                     Habilidades usadas:

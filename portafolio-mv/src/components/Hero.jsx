@@ -26,7 +26,7 @@ export class Hero extends Component {
                             </tr>
                             <tr>
                                 <th className="row container">Email:</th>
-                                <td className="container text-white"><a href="gmail.com"> villegas4006@gmail.com</a></td>
+                                <td className="container text"><a href="gmail.com"> villegas4006@gmail.com</a></td>
                             </tr>
                             <tr>
                                 <th className="row container">Dirección:</th>
@@ -34,6 +34,13 @@ export class Hero extends Component {
                             </tr>
                             </tbody>
                         </table>
+                        <br/>
+                        <p className="personal_profile-social">
+                            <a href="https://github.com/Villegas-06?tab=repositories" className=""><i className="fab fa-github personal_profile_links"></i></a>
+                            <a href="https://www.linkedin.com/in/miguel-angel-montoya-villegas-99206018a/" className=""><i className="fab fa-linkedin ml-2 personal_profile_links"></i></a>
+                            <a href="https://www.facebook.com/miguel.montoya.52643" className=""><i className="fab fa-facebook ml-2 personal_profile_links"></i></a>
+                            <a href="https://twitter.com/villegas4006" className=""><i className="fab fa-twitter-square ml-2 personal_profile_links"></i></a>
+                        </p>
                     </div>
                 </div>
             </header>

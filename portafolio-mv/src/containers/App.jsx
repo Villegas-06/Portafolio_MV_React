@@ -5,6 +5,9 @@ import Hero from '../components/Hero';
 import Bienvenido from '../components/Bienvenido'
 import Portafolio from '../components/Portafolio';
 import Skills from '../components/Skills';
+import Testimonios from '../components/Testimonios';
+import Regreso from '../components/Regreso';
+import Footer from '../components/Footer';
 
 const App = () =>{
     return(
@@ -16,6 +19,9 @@ const App = () =>{
         <Bienvenido/>
         <Skills/>
         <Portafolio/>
+        <Testimonios/>
+        <Regreso/>
+        <Footer/>
         </div>
     )
 }

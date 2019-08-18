@@ -23,17 +23,23 @@ class NavBar extends React.Component {
               >
                 <ul className="navbar-nav nav_li_text">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#bienvenido">
                       Bienvenido
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#Skills">
+                      Habilidades
+                    </a>
+                  </li>
+                  
+                  <li className="nav-item">
+                    <a className="nav-link" href="#portafolio">
                       Portafolio
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="#testimonios">
                       Testimonios
                     </a>
                   </li>

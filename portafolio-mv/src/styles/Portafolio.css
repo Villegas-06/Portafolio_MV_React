@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
 
+.section-title{
+    font-family: 'Amatic SC', cursive;
+}
+
 .portafolio_txt{
     font-family: 'Shadows Into Light', cursive;
 }

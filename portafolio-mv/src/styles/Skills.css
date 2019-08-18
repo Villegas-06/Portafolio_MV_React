@@ -22,6 +22,10 @@
 	position:relative; 
 	top:-30px;
 }
+
+.progress_list__skills{
+	font-family: 'Amatic SC', cursive;
+}
  
 .bar { 
 	height:18px; 

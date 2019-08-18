@@ -12,7 +12,7 @@ export class Portafolio extends Component {
                         <h2 className="section-title">
                             Mis Proyectos
                         </h2>
-                        <div className="portafolio-cards portafolio_txt">
+                        <div className="portafolio-cards portafolio_txt d-flex justify-content-center">
                         <div className="row project-card ">
                             <div className="col-md-6 col-lg-5 justify-content-center mt-3 mb-3 project-card__img">
                                 <img className="project-card__img" src={tienda} alt=""/>

@@ -6,10 +6,10 @@ import geekconf from '../images/perfilgeek.png'
 export class Portafolio extends Component {
     render() {
         return (
-            <section  className="container mt-5">
-                <div className="row">
+            <section className="container mt-5">
+                <div  id="portafolio" className="row">
                     <div className="col-md-12">
-                        <h2 id="portafolio" className="section-title">
+                        <h2 className="section-title">
                             Mis Proyectos
                         </h2>
                         <div className="portafolio-cards portafolio_txt">

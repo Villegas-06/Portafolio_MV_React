@@ -4,10 +4,11 @@ import '../styles/Bienvenido.css'
 export class Bienvenido extends Component {
     render() {
         return (
+            <div id="bienvenido">
             <section className="container mt-5">
                 <div className="row">
                     <div className="col-md-10">
-                    <h2 className="h2" id="bienvenido" >Bienvenido</h2>
+                    <h2 className="h2" >Bienvenido</h2>
                     <p className="section Bienvenido_div_txt">Soy desarrollador web junior 
                     capaz de construir una presencia web desde cero: <br/> desde el concepto, 
                     la navegación, el diseño y la programación hasta UX y UI. <br/>
@@ -17,6 +18,7 @@ export class Bienvenido extends Component {
                 </div>
                 <hr/>
             </section>
+            </div>
         );
     }
 }

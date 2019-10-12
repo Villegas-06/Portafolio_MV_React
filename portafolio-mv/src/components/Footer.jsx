@@ -19,7 +19,7 @@ export class Footer extends Component {
                                     <tbody>
                                         <tr>
                                             <th className="row container th">Teléfono</th>
-                                            <td className="container td">319727605</td>
+                                            <td className="container td">3197287605</td>
                                         </tr>
                                         <tr>
                                             <th className="row container th">Email:</th>
